@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseMkl="mklParallel"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="1000000000" StackCommitSize="1000000000"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<Filter Name="function">
+		<File RelativePath=".\distance.f90"/>
+		<File RelativePath=".\distance_square.f90"/></Filter>
+		<Filter Name="mid_output">
+		<File RelativePath=".\output_element.f90"/>
+		<File RelativePath=".\output_force_of_node.f90"/>
+		<File RelativePath=".\output_K_global.f90"/>
+		<File RelativePath=".\output_K_global_new.f90"/>
+		<File RelativePath=".\output_node_clear.f90"/>
+		<File RelativePath=".\output_node_position.f90"/>
+		<File RelativePath=".\output_solution.f90"/></Filter>
+		<Filter Name="前处理">
+		<Filter Name="boundary_conditions">
+		<File RelativePath=".\concentrated_loads_assembling.f90"/>
+		<File RelativePath=".\concentrated_loads_input.f90"/>
+		<File RelativePath=".\distributed_loads_assembling.f90"/>
+		<File RelativePath=".\distributed_loads_input.f90"/>
+		<File RelativePath=".\loads_input.f90"/></Filter>
+		<Filter Name="K_element">
+		<File RelativePath=".\calculate_EK_and_EF.f90"/>
+		<File RelativePath=".\element.f90"/>
+		<File RelativePath=".\K_element_assembling.f90"/>
+		<File RelativePath=".\K_global_assembling.f90"/>
+		<File RelativePath=".\node_clear.f90"/>
+		<File RelativePath=".\partial_derivative.f90"/></Filter>
+		<Filter Name="nodes_Si_C_form">
+		<File RelativePath=".\initial_data_gro_output.f90"/>
+		<File RelativePath=".\initial_data_input.f90"/>
+		<File RelativePath=".\initial_nodes_form.f90"/></Filter></Filter>
+		<Filter Name="后处理">
+		<File RelativePath=".\result_output.f90"/></Filter>
+		<Filter Name="求解器">
+		<Filter Name="求解方法">
+		<File RelativePath=".\solution_gauss.f90"/></Filter>
+		<File RelativePath=".\boundary_conditions_introduced_1.f90"/>
+		<File RelativePath=".\boundary_conditions_introduced_2.f90"/></Filter>
+		<File RelativePath=".\afem_parameter.f90"/>
+		<File RelativePath=".\inverse_matrix.f90"/>
+		<File RelativePath=".\main.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

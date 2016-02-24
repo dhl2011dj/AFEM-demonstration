@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "afem-dhl", "afem-dhl.vfproj", "{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}.Debug|Win32.Build.0 = Debug|Win32
+		{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}.Release|Win32.ActiveCfg = Release|Win32
+		{4A5EEDCB-85F2-4F39-A5F4-794685D925A8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
